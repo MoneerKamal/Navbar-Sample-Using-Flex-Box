@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+li,a,button{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+header{
+    display: flex;
+   
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #24252a; 
+    margin-bottom: 20px;
+}
+.header-1{
+    justify-content: space-between;
+}
+.header-2{
+    justify-content: flex-end;
+}
+.header-3{
+    justify-content: space-between;
+}
+.logo{
+    cursor: pointer;
+    max-width: 150px;
+}
+.header-2 .logo{
+    margin-right: auto;
+}
+.header-3 .logo{
+    order: 3;
+    margin-left: auto;
+}
+.main-nav{
+    list-style: none;
+}
+.header-3 .main-nav{
+    order: 1;
+}
+.main-nav li{
+display: inline-block;
+padding: 2px 20px;
+}
+.main-nav li a{
+    transition: all 0.4s ease 0s;
+}
+.main-nav li a:hover{
+    color: #0598a5;
+}
+button{
+    padding: 9px 25px;
+    background: rgba(0, 136, 120, 1);
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.4s ease 0s;
+}
+.header-2 button{
+    margin-left: 15px;
+}
+.header-3 button{
+    order: 2;
+    margin-left: 15px;
+}
+.header-3 .main-nav li:nth-child(1){
+    padding-left: 0;
+}
+button:hover{
+    background: rgba(0, 136, 120,0.6);
+
+}
